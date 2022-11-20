@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3		
-      - name: Fetch Alumni Data 📦
+      - name: Fetch Blogs Data 📦
         uses: JamesIves/fetch-api-data-action@v2
         with:
           endpoint: https://www.googleapis.com/blogger/v3/blogs/2671398352698171530/posts?key=${{secrets.API_KEY}}
